@@ -1,4 +1,4 @@
-# Kakeya geometry constrains directionally optimized ballistic transport
+# Kakeya geometry sets attainable limits on ballistic transport
 
 Code and numerical data for the manuscript by Kangqiao Liu.
 
