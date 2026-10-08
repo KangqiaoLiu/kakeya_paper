@@ -28,7 +28,7 @@
   "capped_radial_design": {
     "budget": 0.08,
     "cap": 1.0,
-    "activation_width": 0.04696261917070987,
+    "activation_width": 0.04696261917070986,
     "small_width_core_radius": 0.01608549522171111,
     "small_width_q_limit": 4.472223283954423
   },

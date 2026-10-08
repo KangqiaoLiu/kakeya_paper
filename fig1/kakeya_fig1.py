@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fig. 1 for the Kakeya PRL -- all geometry computed, not hand-placed."""
+"""Translation-maximized attenuation in a six-ridge extinction landscape."""
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -35,8 +35,7 @@ def ridge(cx, cy, ln, wd, amp, rot):
     v = -(X - cx) * s + (Y - cy) * c
     return amp * np.exp(-0.5 * ((u / ln) ** 4 + (v / wd) ** 2))
 
-# an anisotropic patterned sink: a few oriented ridges, so the angular
-# response has real structure rather than being nearly isotropic
+# Six oriented ridges form the anisotropic extinction landscape.
 GAM = (ridge( 0.00, 0.00, 0.62, 0.085, 1.00, np.deg2rad(  22))
      + ridge(-0.30, 0.34, 0.50, 0.075, 0.86, np.deg2rad( 100))
      + ridge( 0.34,-0.30, 0.46, 0.070, 0.80, np.deg2rad( 158))

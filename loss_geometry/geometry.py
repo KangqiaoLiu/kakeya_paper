@@ -33,9 +33,15 @@ def exact_q(w, L=1.0):
 
 
 def exact_q_closed(w, L=1.0):
+    """Exact rectangular coefficient for 0 < w/L <= 1."""
     delta = w/L
     if delta == 1.0:
         return np.sqrt(8*np.log(2))
+    if delta <= 0.01:
+        # The even series evaluates the closed expression to double precision.
+        d2 = delta*delta
+        regular = 6-d2*(1/3+d2*(1/15+d2*(1/42+d2/90)))
+        return np.sqrt(regular-4*np.log(delta))
     value = 2*((1+delta)**2*np.log1p(delta)
                +(1-delta)**2*np.log1p(-delta))/delta**2 - 4*np.log(delta)
     return np.sqrt(value)
