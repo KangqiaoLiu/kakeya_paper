@@ -1,9 +1,4 @@
-"""Plot saved response data with the Fig. 1 typography.
-
-The 7.05-inch width, LaTeX Computer Modern fonts, 7.6-point base,
-7.0-point ticks and 8.4-point panel letters match Fig. 1.
-Panel descriptions and parameter statements are in FIGURE_CAPTIONS.md.
-"""
+"""Render loss-geometry figures from saved numerical data."""
 from pathlib import Path
 import json
 
