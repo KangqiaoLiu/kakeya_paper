@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-08",
+  "L": 1.0,
+  "v_F": 1.0,
+  "w": 0.05,
+  "exact_q": 4.240530078167529,
+  "omnidirectional_min_budget_squared_coefficient": 0.3494134130108895,
+  "exact_formula_max_relative_spread": 7.102946868910081e-13,
+  "finest_2d_relative_error": -0.0004949686857694,
+  "fixed_support_refined_q": {
+    "radial_optimum": 4.225622944588755,
+    "fixed_support_shuffle": 1.9616182836127465,
+    "fixed_support_radial_reverse": 1.5897778710454489
+  },
+  "fixed_support_radial_over_shuffle": 2.154151488028727,
+  "fixed_support_shuffle_mean_q": 1.9991579618492752,
+  "fixed_support_shuffle_sample_std_q": 0.019778564217472355,
+  "fixed_support_shuffle_count": 12,
+  "eight_annuli_exact_retention": 0.9924988870488604,
+  "eight_annuli_2d_retention": 0.9912012922179152,
+  "binary_refined_q": {
+    "binary_disk": 2.820067686950737,
+    "binary_deltoid": 3.5166600000743693,
+    "binary_deltoid_optimized": 3.6772395604595034,
+    "binary_random_optimized": 3.663219867748134
+  },
+  "binary_optimized_over_disk": 1.3039543616187466,
+  "capped_radial_design": {
+    "budget": 0.08,
+    "cap": 1.0,
+    "activation_width": 0.04696261917070987,
+    "small_width_core_radius": 0.01608549522171111,
+    "small_width_q_limit": 4.472223283954423
+  },
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.9.4"
+  }
+}

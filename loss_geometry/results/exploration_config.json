@@ -1,0 +1,11 @@
+{
+  "grid_n": 193,
+  "domain_radius": 0.8,
+  "w": 0.05,
+  "L": 1.0,
+  "angles": 60,
+  "kernel_subpixels": 4,
+  "seed": 20261008,
+  "binary_area_target": 0.1,
+  "elapsed_seconds": 3.91453218460083
+}

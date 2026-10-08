@@ -1,0 +1,11 @@
+{
+  "centered_lambda": 25.51881711551424,
+  "shifted_lambda": 19.844302498050038,
+  "eigen_residual": 9.41008164741723e-15,
+  "max_shifted_overlap_excess": 4.163336342344337e-17,
+  "shift_trials": 1000,
+  "max_entrywise_gram_excess": 1.5543122344752192e-15,
+  "direct_tube_integral": 0.007154848403081228,
+  "radial_occupancy_norm2": 0.00715484840280613,
+  "direct_relative_error": 3.844924516425455e-11
+}
